@@ -1,0 +1,40 @@
+Linux 下的裝置代號
+
+◎ Linux 將所有裝置設備皆視為檔案；
+◎ 所有周邊均放置於 /dev 目錄下
+ ○ IDE 裝置(含 IDE 與 SATA 硬碟)：
+  ☉ IDE1(master) /dev/hda
+  ☉ IDE1(slave) /dev/hdb
+   ● IDE1(master)的第一個磁碟分割 /dev/hda1
+ ○ SCSI 裝置：
+ ○ 硬碟：/dev/sda, /dev/sdb…
+ ○ 光碟：/dev/scd0, /dev/scd1…
+ ○ 磁帶：/dev/st0, /dev/st1….
+ ○ USB 裝置：
+  ● /dev/sda, /dev/sdb…
+ ○ 其他周邊：
+ ○ 軟碟：/dev/fd0, /dev/fd1…
+ ○ Com1 (/dev/ttyS0) com2 (/dev/ttyS1)
+ ○ LPT1 (/dev/lp0) LPT2(/dev/lp1)
+ ○ ps2 mouse: /dev/psaux
+
+◎ IDE 硬碟的裝置代號：
+ ○ IDE 1 
+  ☉ Master： /dev/hda
+  ☉ Slave ： /dev/hdb
+ ○ IDE 2
+  ☉ Master： /dev/hdc
+  ☉ Slave ： /dev/hdd
+
+◎ 每個硬碟可以在被分割 (partition) 成為多個磁碟分割槽
+ ○ 每個硬碟都有一個第零軌，內有 MBR 與 partition table
+ ○ 由於資料量的大小，最多能有四個 primary+extended partition。
+
+Linux 系統內必須要有的 partitions 
+ ○ / (根目錄，也稱為 root)
+ ○ swap (虛擬記憶體)
+
+Paritions數量上限
+ ○ 4 MBR primary partitions
+ ○ 255 Linux GPT partitions
+ ○ 16,777,216 LVM1 volumes vg*lv, LVM2 號稱無上限，但 查詢其源碼可知其上限：9,223,372,036,854,775,807 zpools (ZFS) or subvolumes (btrfs)

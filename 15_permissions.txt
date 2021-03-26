@@ -1,0 +1,114 @@
+以下哪個命令將檔案的“其他者(other)”權限設置為 r-x?
+chmod o=r+x file
+chmod o=rx file*
+chmod o-r-w file
+chmod o+rx file
+
+以下哪個命令將檔案的“其他者(other)”權限設置為 r-x?
+chmod 777 file
+chmod 776 file
+chmod 775 file*
+chmod 774 file
+
+使用符號方法只能一次更改一組（用戶(user)，組(group)，其他者(other)）權限。
+True or False?
+True
+False*
+
+以下哪項是使用chmod命令設置權限的方法？ （選擇兩個）
+二進位數字(binary)
+符號式(symbolic)*
+字母(letter)
+八進位數字(octal)*
+
+
+chown命令可用於更改檔案的推有者(owner)和組(group)。
+True or False?
+True*
+False
+
+chgrp 命令可用於更改檔案的推有者(owner)和組(group)。
+True or False?
+True
+False*
+
+用戶sysadmin將能夠讀取該檔案，因為他們擁有該檔案。
+—-r–r– 1 sysadmin group 38270 Sep 2 18:49 file
+True or False?
+True
+False*
+
+用戶sysadmin將能夠更改檔案的權限，因為他們擁有該檔案。
+—-r–r– 1 sysadmin group 38270 Sep 2 18:49 file
+True or False?
+True*
+False
+
+八進制表示法對授予的權限使用以下值:
+r = 4, w = 2, x = 1*
+r = 7, w = 5, x = 0
+r = 3, w = 2, x = 1
+r = 4, w = 2, x = 0
+
+以下哪個權限允許所有用戶添加、查看和刪除目錄中的檔案?
+666
+775
+750
+777*
+
+如果用戶不擁有該檔案，則無法刪除該檔案。
+True or False?
+True
+False*
+
+目錄上的“執行(execute)”權限允許您:(選擇三個）
+切換到該目錄或將其用作路徑的一部分*
+隨著寫入權限成功刪除目錄
+隨著讀取權限成功執行 ls -l*
+隨著寫入權限以成功創建新檔案文件*
+
+檔案上的 “執行(execute)”權限允許您:
+將該檔案作為腳本運行*
+此權限對文本(text)檔案沒有意義。
+刪除該檔案
+將該檔案移動到新的目錄
+
+chgrp 命令可被誰應用在一個檔案上:
+只有 root
+屬於檔案當前組(group)的用戶
+檔案的擁有者(owner)和 root*
+只有檔案擁有者(owner)
+
+chown 命令可被誰用於檔案，以更改檔案的用戶擁有者者:
+只有 root*
+屬於檔案當前組(group)的用戶
+檔案的擁有者(owner)和 root
+只有檔案擁有者(owner)
+
+chmod 命令可被誰用於檔案:
+檔案的擁有者(owner)和 root*
+只有 root
+屬於檔案當前組(group)的用戶
+檔案擁有者(owner)
+
+
+chown命令的哪個選項可用於更改目錄以及其下的所有檔案和目錄的擁有者？
+-r
+-R*
+-f
+-a
+
+chown命令一次只接受一個檔案作為參數。
+True or False?
+True
+False*
+
+默認情況下，永遠不會在檔案上設置“執行(execute)”權限。
+True or False?
+True*
+False
+
+檔案的用戶擁有者將始終具有與“其他者(other)”相同或更高的權限。
+True or False?
+True
+False*

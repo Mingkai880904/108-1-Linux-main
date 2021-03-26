@@ -1,0 +1,92 @@
+Select all the applications that provide access to the Command Line Interface (CLI)? (choose two)
+opera
+Virtual Terminal*
+Terminal window*
+firefox
+
+哪個環境變數包含搜索要執行的命令的目錄列表?
+PATH*
+PS2
+PS1
+EXEC
+
+Select the command that can report the location of a command:
+what
+where
+which*
+
+A pair of single quotes ( ‘ ) will prevent the shell from interpreting any metacharacter.True or False?
+True*
+False
+
+A pair of double quotes ( ” ) will prevent the shell from interpreting any metacharacter.True or False?
+True
+False*
+
+使用一對後引號( ` ) 將使shell將後引用文本作為命令執行，並將輸出替換回原始命令。True or False?
+True*
+False
+
+Which of the following are glob characters?(choose three)
+The asterisk “*” *
+The question mark “?” *
+The dash character “-”
+The square brackets “[” and “]” *
+
+The semicolon “;” can be used to separate multiple commands to be executed in order.True or False?
+True*
+False
+
+The double ampersand characters ( && ) are used to separate commands to be executed conditionally, where if the command to the left of the ampersands fails, then the command to the right of the ampersands will be executed.True or False?
+True
+False*
+
+To be able to output messages to the screen, use the _______ command:
+display
+type
+print
+echo*
+
+The _______ command will print a list of the commands that you’ve previously executed.
+eval
+history*
+list
+exec
+
+To execute the same command as previously executed five commands ago, you would type:
+&5
+!-5 *
+@-5
+!5
+
+The shell program interprets the commands you type into the terminal, into instructions that the Linux operating system can execute.True or False?
+True*
+False
+
+The acronym CLI stands for:
+Command Line Interpreter
+Computer Link Interpreter
+Computer Line Interface
+Command Line Interface*
+
+Traditional UNIX command options used a single dash, like -a; _______ command options use two dashes like –all.
+LINUX
+Kernel
+GNU *
+shell
+
+The acronym GNU stands for:
+Gnu’s Not Unix*
+Good News Unix
+Gnu’s Nearly Unix
+Go Next Unit
+
+What one character treats the character that follows it as if it was surrounded by single quotes?
+#
+/
+%
+\ *
+
+The main purpose of using glob characters is to be able to provide a command a list of filenames.True or False?
+True*
+False
